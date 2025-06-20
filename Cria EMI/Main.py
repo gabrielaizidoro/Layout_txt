@@ -1,10 +1,12 @@
 import pandas as pd
+from dotenv import load_dotenv
+import os
 
-# === Caminhos ===
-CAMINHO_EXCEL = r"E:\01 - Programação\Criação emissão COL\Input\modelo_dados_usuario_ajustado.xlsx"
-CAMINHO_SAIDA = r"E:\01 - Programação\Criação emissão COL\Output\ARQEMISS.txt"
-CAMINHO_ERROS = r"E:\01 - Programação\Criação emissão COL\Output\erros_validacao.txt"
+load_dotenv()
 
+CAMINHO_EXCEL = os.getenv("CAMINHO_EXCEL")
+CAMINHO_SAIDA = os.getenv("CAMINHO_SAIDA")
+CAMINHO_ERROS = os.getenv("CAMINHO_ERROS")
 
 tamanhos = {
     "Número da Apólice": 15,
