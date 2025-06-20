@@ -6,10 +6,12 @@ __pycache__/
 # C extensions
 *.so
 
-# Arquivos de dados (Excel, CSV)
+# Arquivos de dados (Excel, CSV, .zip, docx)
 *.xlsx
 *.xls
 *.csv
+.zip
+*.docx
 
 # Distribution / packaging
 .Python

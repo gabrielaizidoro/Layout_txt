@@ -1,0 +1,1 @@
+Linha 4: Campo 'Número da Apólice': 'ADBC' deveria ser numérico.
