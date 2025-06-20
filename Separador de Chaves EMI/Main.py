@@ -21,12 +21,16 @@ import time
 import getpass
 import platform
 import sys
+from dotenv import load_dotenv
 
-# === CONFIGURAÇÕES INICIAIS ===
-CAMINHO_PLANILHA = r"E:\01 - Programação\Separador de Emissão\Input\Referencias.xlsx"
-COLUNA_CHAVE = "Chave do arquivo"
-PASTA_TXT = r"E:\01 - Programação\Separador de Emissão\Input"
-PASTA_SAIDA = r"E:\01 - Programação\Separador de Emissão\Output"
+# Carregar variáveis do .env
+load_dotenv()
+
+# Pegar caminhos do arquivo .env
+CAMINHO_PLANILHA = os.getenv("CAMINHO_PLANILHA")
+COLUNA_CHAVE = os.getenv("COLUNA_CHAVE")
+PASTA_TXT = os.getenv("PASTA_TXT")
+PASTA_SAIDA = os.getenv("PASTA_SAIDA")
 
 # === FUNÇÕES AUXILIARES ===
 
