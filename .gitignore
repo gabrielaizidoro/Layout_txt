@@ -12,6 +12,7 @@ __pycache__/
 *.csv
 .zip
 *.docx
+.env
 
 # Distribution / packaging
 .Python
