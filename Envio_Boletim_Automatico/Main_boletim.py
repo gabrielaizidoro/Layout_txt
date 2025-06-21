@@ -68,7 +68,7 @@ legenda = """
 outlook = Dispatch("Outlook.Application")
 mail = outlook.CreateItem(0)
 
-mail.To = "Gestao_Recebiveis_ControleParcerias@correio.itau.com.br"
+mail.To = "insira_o_email@gmail.com"
 mail.Subject = f"BOLETIM DE EMISSÕES DO COL - {hoje.strftime('%d/%m/%Y')}"
 mail.HTMLBody = f"""
 <p>Olá,</p>
