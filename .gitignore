@@ -10,7 +10,7 @@ __pycache__/
 *.xlsx
 *.xls
 *.csv
-.zip
+*.zip
 *.docx
 .env
 
