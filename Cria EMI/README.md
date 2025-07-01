@@ -97,7 +97,7 @@ Ou, em caso de erros:
 - `ARQEMISS.txt` com linhas posicionais conforme layout
 - `erros_validacao.txt` com mensagens como:
   ```
-  Linha 4: Campo 'CPF ou CNPJ': 'ABC123' deveria ser numérico.
+  Linha 4: Campo 'CPF ou CNPJ': 'ABC123' deveria ser numérico
   ```
 
 ---
